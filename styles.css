@@ -63,7 +63,7 @@ nav {
 }
 
 .text-renaissance {
-    background-image: url('./diamonds.avif');
+    background-image: url('./images/diamonds.avif');
     background-clip: text; 
     -webkit-background-clip: text; /* For Safari */
     color: transparent; 
