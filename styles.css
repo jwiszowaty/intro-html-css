@@ -1,20 +1,52 @@
 * {
+    background-color: ;
+}
+.city {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+
 }
 .city-name {
     font-size: 50px;
 }
-img {
-    height: 300px;
-    padding: 10px
+.dates {
+    display:flex;
+    width:80vw;
+    justify-content: center;
 }
+h2 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.images {
+    width:80vw;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    margin:10px;
+    gap: 10px;
+}
+.img {
+    background-color: blue;
+    display: flex;
+    height: 300px;
+    width:200px;
+    justify-content: center;
+    overflow: hidden;
+}
+img {
+    height: 100%;
+}
+
 h3 {
     color:white;
     font-size: 15px;
 }
-.images {
-    display: flex;
 
-}
 .body {
     margin:0;
     display:grid;
